@@ -1,8 +1,4 @@
 spring:
-  boot:
-    admin:
-      client:
-        url: "http://localhost:8080"
   application:
     name: "Muli Spring Boot Admin"
 management:
@@ -10,3 +6,4 @@ management:
     web:
       exposure:
         include: "*"
+    enabled-by-default: true
