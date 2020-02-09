@@ -2,11 +2,11 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8080
+        url: "http://localhost:8080"
   application:
-    name: Muli Spring Boot Admin
+    name: "Muli Spring Boot Admin"
 management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: "*"
